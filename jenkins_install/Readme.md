@@ -5,7 +5,7 @@ Recommended: 1 GB RAM, 20+ GB disk, Java8 or Java11, Compatible Browser
 # Installing Jenkins (Single node)
 ## Setup using Docker
 Jenkins can run inside container. 
-Refer Readme.md in using_docker directory to setup Jenkins on Docker. 
+Refer [Readme.md](using_docker/Readme.md) in using_docker directory to setup Jenkins on Docker. 
 
 Also, Jenkins can use other container as agent.
 
