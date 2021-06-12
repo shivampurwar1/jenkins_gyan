@@ -28,20 +28,20 @@ Note: This is not good security practice as plaintext password is present on ser
 Jenkins with no plugin does not do anything.   \
 Plugins add functionality to Jenkins.  
 
-Refer Readme.md in manage_plugins directory.
+Refer [Readme.md](manage_plugins/Readme.md) in manage_plugins directory.
 
 ## Manage Credentials
 Credential plugin used to store and manage credential centrally.
 You can store SSH, Github, etc credential in Jenkins.
 
-Refer Readme.md in manage_credential directory to manage credentials.
+Refer [Readme.md](manage_credentials/Readme.md) in manage_credentials directory to manage credentials.
 
 ## Source Code Management Integration
 SCM helps to store code with versions (revertible). \
 SCM helps to track the changes.  
 
-Refer Readme.md in global_tool_configuration directory to setup Git path.  \
-Refer Readme.md in configure_system directory to setup Git Server.
+Refer [Readme.md](global_tool_configuration/Readme.md) in global_tool_configuration directory to setup Git path.  \
+Refer [Readme.md](configure_system/Readme.md) in configure_system directory to setup Git Server.
 
 ## Configure System
 Configure global setting and path.
@@ -50,7 +50,7 @@ Configure global setting and path.
 - Extended E-mail Notification
 - E-mail Notification, etc
 
-Refer Readme.md in configure_system directory to setup global setting. 
+Refer [Readme.md](configure_system/Readme.md) in configure_system directory to setup global setting. 
 
 ## Global Tool Configuration
 Configure tools, their locations and automatic installers. 
@@ -59,14 +59,14 @@ Configure tools, their locations and automatic installers.
 - Gradle
 - NodeJS, etc
 
-Refer Readme.md in global_tool_configuration directory to setup tools. 
+Refer [Readme.md](global_tool_configuration/Readme.md) in global_tool_configuration directory to setup tools. 
 
 ## Configure Global Security
 Secure Jenkins, define who is allowed to access/use the system.
 - Authentication
 - Authorization  
 
-Refer Readme.md in configure_global_security directory to setup authentication and authorization. 
+Refer [Readme.md](configure_global_security/Readme.md) in configure_global_security directory to setup authentication and authorization. 
 
 ## Notifications
 Jenkins helps to notify the appropriate member timely about success or failure with customize message.
@@ -80,10 +80,10 @@ Type of Notifications:
 - Instant messaging / SMS   # Slack Integration
 - Dashboard view  (For Non-tech person)
 
-Refer Readme.md in configure_system directory to setup Simple or Extended Email Notification.
+Refer [Readme.md](configure_system/Readme.md) in configure_system directory to setup Simple or Extended Email Notification.
 
 To let team know about **scheduled maintenance**.
-Refer Readme.md in configure_system directory to setup scheduled maintenance info.
+Refer [Readme.md](configure_system/Readme.md) in configure_system directory to setup scheduled maintenance info.
 
 ## Monitoring
 Monitor important metrics.
